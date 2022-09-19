@@ -1,0 +1,25 @@
+/* start works style */
+.works .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap :55px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+    
+}
+@media (max-width :1300px) {
+    .works .container{
+        grid-template-columns: auto;
+        justify-content: center;
+     }
+        
+}
+  @media (max-width :768px){
+    .works .container img{
+        width:100% ;
+    }
+   }
+   footer {
+    margin-top: 100px;
+   }
